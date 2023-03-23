@@ -1,0 +1,81 @@
+<h1>HTML</h1>
+<h2>Emmet / Zen Coding</h2>
+<!-- etiket isimlerini direk verebiliyoruz
+    + kardes oge
+    > icinde oge
+    ^ icinde oge
+    * carp -> p*3
+    . -> class
+    # -> id
+-->
+
+<!-- kardes oge -->
+<!-- h1+p+p+h2+p+p+p -->
+<h1>1</h1>
+<p>1 </p>
+<p>1 </p>
+<h2>1</h2>
+<p>1 </p>
+<p>1 </p>
+<p>1 </p>
+
+<!-- h1+p*2+h2+p*3  * ile verilen sayı kadar oluşturur-->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+
+
+<!-- ul>li*5 > işareti alt öğeyi belirtmektedir. -->
+<ul>
+    <li> 1 </li>
+    <li> 2 </li>
+    <li> 3 </li>
+    <li> 4 </li>
+    <li> 5 </li>
+</ul>
+
+<!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -- Hatali -->
+<ul>
+    <li>Lorem.</li>
+    <li>Repellendus.</li>
+    <li>Vero?</li>
+    <p>
+        Lorem ipsum dolor sit.
+        <h3>Lorem.</h3>
+    </p>
+    <p>
+        Sunt quasi a obcaecati.
+        <h3>Assumenda.</h3>
+    </p>
+</ul>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+<!-- ^^ ile 2 üste çıkmaktadır. -->
+<ul>
+    <li>Lorem.</li>
+    <li>Vero!</li>
+    <li>Ut.</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Harum totam corporis minus?</p>
+<h3>Lorem.</h3>
+
+<!-- . -> Class   --><!-- h3.deneme>lorem1-->
+<h3 class="deneme">Lorem.</h3>
+
+<!-- # -> id   --><!-- h3#idolsun>lorem1 -->
+<h3 id="idolsun">Lorem.</h3>
+
+<!-- h3.deneme#idolussun>lorem1 -->
+<h3 class="deneme" id="idolussun">Lorem.</h3>
+
+
+<!-- ul>li#id1+li#id2+li#id3  EQ  ul>li#idNo$*3  -->
+<!-- $ sıra oluşturmak için kullanılır -->
+<ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+</ul>
